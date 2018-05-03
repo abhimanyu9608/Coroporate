@@ -48,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(inaccount);
             }
         });
+        
         tvfb=(TextView)findViewById(R.id.tv_fb);
         typeface =Typeface.createFromAsset(getAssets(),"fonts/Lato-Regular.ttf");
         tvfb.setTypeface(typeface);
